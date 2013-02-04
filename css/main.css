@@ -1,0 +1,23 @@
+
+html,body {
+	
+	height:100%;
+	width:100%;
+	padding: 0px;
+	margin: 0px;
+	
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.templates {
+	
+	display: none; 
+}
+
+.spriteContainer {
+	
+	height: 500px;
+	width: 500px;
+	background: CCC;
+}

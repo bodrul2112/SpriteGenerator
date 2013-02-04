@@ -1,0 +1,23 @@
+SpriteGenerator
+
+No this has nothing to do with css sprites, rather the sprites you see in 2D games
+Trying to make the stuff here generic, so I can use them inside Project RPG, and Project Elysium
+
+TODO:
+
+- panel to draw the sprite square by square
+- store the sprite in a compressed notation
+- make UI for controlling the drawing
+	- add color picker
+	- change the amount of grid squares it uses
+	- delete colored squares
+	- show preview of sprite in different sizes
+	- toggle between showing the grid and nt
+- scale the sprite
+- give frames to the sprite to make it look like it is animating
+	- add a new UI to make transitions easy to create
+
+BIG TODO:
+- make sprite generation API
+
+- decide what to do next
