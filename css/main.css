@@ -15,9 +15,94 @@ html,body {
 	display: none; 
 }
 
-.spriteContainer {
+.frameGenerator {
 	
-	height: 500px;
-	width: 500px;
-	background: CCC;
+	position: absolute;
+	left: 5px;
+	top: 5px;
+	width: 300px;
+	height: 300px;
+	overflow: none;
+	border: 2px solid #CCC;
 }
+
+.frameGenerator .navigation {
+	
+	position: absolute;
+	left: 40px;
+	top: 0px;
+	width: 260px;
+	height: 40px;
+	border: 1px solid #DDD;
+}
+
+.navigation .control {
+	
+	position: absolute;
+	top:0px;
+	width: 45px;
+	height: 40px;
+	border: 1px solid #DDD;
+}
+
+.navigation .left {
+	left: 0px;
+}
+
+.left .arrow {
+	
+	width: 0; 
+	height: 0; 
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent; 
+	border-right: 15px solid #CCC; 
+}
+
+.navigation .right {
+	left: 215px;
+}
+
+.navigation .arrow {
+	
+	position: absolute;
+	left: 14px;
+	top: 3px;
+}
+
+
+.right .arrow {
+	
+	width: 0; 
+	height: 0; 
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-left: 15px solid #CCC;
+}
+
+.frameGenerator .leftMenu {
+	
+	position: absolute;
+	left: 0px;
+	top: 40px;
+	width:40px;
+	height:260px;
+	border: 1px solid #DDD;
+}
+
+.gridContainer {
+	
+	position: absolute;
+	z-index: 1;
+	left: 40px;
+	top: 40px;
+	right: 40px;
+	width: 260px;
+	height:260px;
+	background-color: rgba(240,240,240,0.5);
+}
+
+
+
+
+
+

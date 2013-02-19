@@ -3,6 +3,8 @@
 	
 	<head>
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	
 	<title>Sprite Generator</title>
 		<link rel="stylesheet" type="text/css" href="css/main.css">	
 		
@@ -11,14 +13,27 @@
 	
 	<body>
 	
-		<div class="spriteContainer">
+		<div class="frameGenerator">
+			<div class="navigation">
+				<div class="control left">
+					<div class="arrow"></div>
+				</div>
+				<div class="number"></div>
+				<div class="control right">
+					<div class="arrow"></div>
+				</div>
+			</div>
+			
+			<div class="leftMenu"></div>
+			
+			<div class="gridContainer">
+				<canvas class="gridCanvas"></canvas>
+			</div>
 		</div>
-		
+	
 		<div class="templates">
-		
 			<canvas class="spriteGeneratorContainer">
 			</canvas>
-									
 		</div>
 	
 	</body>
