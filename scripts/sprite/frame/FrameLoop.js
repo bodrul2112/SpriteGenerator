@@ -19,6 +19,8 @@ define(["thirdparty/jquery", "sprite/frame/FrameSet"], function(jQuery, FrameSet
 		};
 		
 		this.m_nMaxFrameSets = 4;
+		
+		this.m_oCurrentFrame;
 		this.m_nCurrentFrameIndex = 0;
 		
 		this.setDirection("down");
@@ -28,8 +30,8 @@ define(["thirdparty/jquery", "sprite/frame/FrameSet"], function(jQuery, FrameSet
 		return this.m_nCurrentFrameIndex;
 	}
 	
-	FrameLoop.prototype.drawFramesAsStrip = function( nScaleFactor, oContext ) {
-		//TODO:
+	FrameLoop.prototype.getCurrentFrameSet = function() {
+		return this.m_nCurrentFrame;
 	}
 	
 	FrameLoop.prototype.setDirection = function( sDirection ) {
